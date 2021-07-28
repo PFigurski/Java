@@ -5,9 +5,11 @@ public class PracaDomowaIf {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj ile masz lat :");
         int age = scanner.nextInt();
-        if (age >= 18){
+        if (age >= 18) {
             System.out.println("Jesteś pełnoletni, możesz wejść");
-        }else {
+        }else if (age<1){
+            System.out.println("Podaj wartość dodatnią");
+        }else{
             System.out.println("Nie masz 18 lat, nie możesz wejść");
         }
     }
