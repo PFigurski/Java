@@ -19,8 +19,8 @@ public class Tablice {
 
         System.out.println(lottoNumbers.length);
 
-        for (int i=0; i<imiona.length; i++){
-            System.out.println(lottoNumbers[i]);
+        for (int lottoNumber : lottoNumbers) {
+            System.out.println(lottoNumber);
         }
 
 }}
