@@ -8,11 +8,13 @@ public class PracaZOperatorow {
         System.out.println("Teraz podaj drugą liczbę nie może być to liczba równa zero");
         int secondNumber = scanner.nextInt();
 
-        int addition = firstNumber+secondNumber;
-        int substraction = firstNumber-secondNumber;
-        int multiplication = firstNumber*secondNumber;
-        int division = firstNumber/secondNumber;
-        int mod = secondNumber % firstNumber;
+        Calculator calculator = new Calculator();
+
+        int addition = calculator.add(firstNumber, secondNumber);
+        int substraction = calculator.sub(firstNumber, secondNumber);
+        int multiplication = calculator.multi(firstNumber, secondNumber);
+        int division = calculator.div(firstNumber, secondNumber);
+        int mod = calculator.mod(firstNumber, secondNumber);
 
         System.out.println("Wynik dodawania tych liczb to: " + addition);
         System.out.println("Wynik odejmowania tych liczb to: " + substraction);
