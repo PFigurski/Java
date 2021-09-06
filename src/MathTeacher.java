@@ -7,6 +7,9 @@ public class MathTeacher extends Person {
         System.out.println("Jestem w konstruktorze MathTeacher");
         this.school = school;
     }
+    public void walk() {
+        System.out.println("I walk very fast");
+    }
 
     public void teachMath() {
 
