@@ -14,6 +14,7 @@ public class MethodName {
     public void add(String a){
         System.out.println(a);
     }
+
     public void add(){
         System.out.println(2+1);
     }
