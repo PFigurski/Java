@@ -8,6 +8,7 @@ public class MathTeacher extends Person {
         this.school = school;
     }
     public void walk() {
+        super.walk();
         System.out.println("I walk very fast");
     }
 
